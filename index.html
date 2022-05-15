@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Dragon Ball Super</title>
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <main>
+      <audio src="./src/ost/ultra-instint-theme.mp3" autoplay loop></audio>
+      <header class="cabecalho">
+        <h1 class="titulo">Salsicha Sola</h1>
+      </header>
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img
+            src="./src/imagem/goku-instinto-superior.png"
+            alt="Personagem Selecionado Jogador 1"
+            id="personagem-jogador-1"
+          />
+          <div class="nome">
+            <h2 id="nome-jogador-1">Goku</h2>
+          </div>
+        </div>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="goku-instinto-superior"
+            data-name="Goku"
+          >
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagem/goku-instinto-superior.jpg"
+              alt="Personagem Goku"
+            />
+          </li>
+          <li class="personagem" id="bills" data-name="Bills">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/bills.jpg" alt="Personagem Bills" />
+          </li>
+          <li class="personagem" id="cell" data-name="Imperfect Cell">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/cell.jpg" alt="Personagem Cell" />
+          </li>
+          <li class="personagem" id="freeza" data-name="Freeza">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/freeza.jpg" alt="Personagem Freeza" />
+          </li>
+          <li
+            class="personagem jogador-2-selecionado"
+            id="salsicha-instinto-superior"
+            data-name="Shaggy Ultra Instinct"
+          >
+            <span class="tag">2P</span>
+            <img
+              src="./src/imagem/salsicha-instinto-superior.jpg"
+              alt="Personagem Salsicha"
+            />
+          </li>
+
+          <li class="personagem" id="jiren" data-name="Jiren">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/jiren.jpg" alt="Personagem Jiren" />
+          </li>
+          <li class="personagem" id="kid-boo" data-name="Kid Boo">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/kid-boo.jpg" alt="Personagem Kid Boo" />
+          </li>
+          <li class="personagem" id="goku-black" data-name="Goku Black">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagem/goku-black.jpg"
+              alt="Personagem Goku Black"
+            />
+          </li>
+
+          <li class="personagem" id="vegeta-ssb" data-name="Vegeta">
+            <span class="tag">1P</span>
+            <img src="./src/imagem/vegeta-ssb.jpg" alt="Personagem Vegeta" />
+          </li>
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img
+            src="./src/imagem/salsicha-instinto-superior.png"
+            alt="Personagem selecionado jogador 2"
+            id="personagem-jogador-2"
+          />
+          <div class="nome">
+            <h2>Shaggy Ultra Instinct</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
